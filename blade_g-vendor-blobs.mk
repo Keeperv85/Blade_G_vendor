@@ -31,6 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/blade_g/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zte/blade_g/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/zte/blade_g/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/zte/blade_g/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+    vendor/zte/blade_g/proprietary/bin/wifi_open.sh:system/bin/wifi_open.sh \
+    vendor/zte/blade_g/proprietary/bin/wifi_close.sh:system/bin/wifi_close.sh \
     vendor/zte/blade_g/proprietary/bin/wiperiface:system/bin/wiperiface \
     vendor/zte/blade_g/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/zte/blade_g/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
@@ -82,5 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/blade_g/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/zte/blade_g/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/zte/blade_g/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/zte/blade_g/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
+    vendor/zte/blade_g/proprietary/lib/modules/librasdioif.ko:system/lib/modules/librasdioif.ko \
     vendor/zte/blade_g/proprietary/lib/modules/ath6kl/ath6kl_sdio.ko:system/lib/modules/ath6kl/ath6kl_sdio.ko \
     vendor/zte/blade_g/proprietary/lib/modules/ath6kl/cfg80211.ko:system/lib/modules/ath6kl/cfg80211.ko
