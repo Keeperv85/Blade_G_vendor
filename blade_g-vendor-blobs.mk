@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/blade_g/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/zte/blade_g/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/zte/blade_g/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/zte/blade_g/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/zte/blade_g/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/zte/blade_g/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
     vendor/zte/blade_g/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
@@ -76,6 +75,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/blade_g/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/zte/blade_g/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/zte/blade_g/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/zte/blade_g/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/zte/blade_g/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/zte/blade_g/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/zte/blade_g/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/zte/blade_g/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -85,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/blade_g/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/zte/blade_g/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/zte/blade_g/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/zte/blade_g/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
     vendor/zte/blade_g/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/zte/blade_g/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/zte/blade_g/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
@@ -152,10 +154,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/blade_g/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/zte/blade_g/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/zte/blade_g/proprietary/lib/hw/sensors.msm7x27a.so:system/lib/hw/sensors.msm7x27a.so \
-    vendor/zte/blade_g/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/zte/blade_g/proprietary/bin/wifi_open.sh:system/bin/wifi_open.sh \
     vendor/zte/blade_g/proprietary/bin/wifi_close.sh:system/bin/wifi_close.sh \
-    vendor/zte/blade_g/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
     vendor/zte/blade_g/proprietary/lib/modules/librasdioif.ko:system/lib/modules/librasdioif.ko \
     vendor/zte/blade_g/proprietary/lib/modules/ath6kl/ath6kl_sdio.ko:system/lib/modules/ath6kl/ath6kl_sdio.ko \
     vendor/zte/blade_g/proprietary/lib/modules/ath6kl/cfg80211.ko:system/lib/modules/ath6kl/cfg80211.ko
