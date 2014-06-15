@@ -19,5 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/blade_g/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
     vendor/zte/blade_g/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/zte/blade_g/proprietary,system)
